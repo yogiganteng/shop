@@ -141,7 +141,7 @@
     </section>
   </main>
   <footer>
-    <p>Created by: <a href="https://github.com/yogiganteng/">@flynerd</a>  / <a href="https://github.com/yogiganteng/">LinkedIn</a> / 2018 </p>
+    <p>Created by: <a href="https://github.com/yogiganteng/">@yogi</a>  / <a href="https://github.com/yogiganteng/">LinkedIn</a> / 2018 </p>
   </footer>
 </body>
 </html>
