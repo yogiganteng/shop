@@ -1,147 +1,319 @@
 <!DOCTYPE html>
-<html>
+<html class="cspio">
 <head>
-  <meta charset="UTF-8">
-  <title>CV - Ocat</title>
-  <meta name="description" content="simple CV example created with HTML and CSS">
-  <meta name="author" content="Fly Nerd">
-  <link rel="icon" href="./img/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Coming Soon Page</title>
+
+	<meta name="generator" content="comingsoonpage.com 1.0.0" />
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="">
+	<meta property="og:url" content="" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="My Coming Soon Page" />
+	<meta property="og:description" content="" />
+	
+	<!-- Font Awesome CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+	<!-- Bootstrap and default Style -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link rel="stylesheet" href="https://static.comingsoonpage.com/cspio-assets/1.0.0/style.css">
+
+	<!-- Google Fonts -->
+	<link class="gf-headline" href='https://fonts.googleapis.com/css?family=Pacifico:400&subset=' rel='stylesheet' type='text/css'>
+			
+	<!-- Animate CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+	
+	<!-- Calculated Styles -->
+	<style type="text/css">
+	
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	body {
+		height:100%;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+	
+	html{
+		height:100%;
+		background: #ffffff url(https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1958d4bfb59a246c6092ff0daabd284b); no-repeat center bottom fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	#cspio-page{
+		background-color: rgba(0,0,0,0);
+	}
+	
+	.flexbox #cspio-page{
+		align-items: center;
+		justify-content: center;
+	}
+
+	.cspio body{
+		background: transparent;
+	}
+
+	.cspio body, .cspio body p{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+        font-size: 20px;
+        line-height: 1.50em;
+        color:#ffffff;
+    }
+
+	::-webkit-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+	::-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	} 
+
+	:-ms-input-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	} 
+
+	:-moz-placeholder {
+		font-family:Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+	}
+
+    .cspio h1, .cspio h2, .cspio h3, .cspio h4, .cspio h5, .cspio h6{
+        font-family: 'Pacifico';
+        color:#ffffff;
+    }
+
+	#cspio-headline{
+		font-family: 'Pacifico';
+		font-weight: 400;
+		font-style: ;
+				font-size: 48px;
+		color:#ffffff;
+		line-height: 1.00em;
+	}
+
+	.cspio button{
+        font-family: Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		font-style: ;
+    }
+	
+    .cspio a, .cspio a:visited, .cspio a:hover, .cspio a:active{
+		color: #ffffff;
+	}
+
+	#cspio-socialprofiles a {
+	  color: #ffffff;
+	}
+	.cspio .btn-primary,
+	.cspio .btn-primary:focus,
+	.gform_button,
+	#mc-embedded-subscribe, .submit-button {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		background-color: #ffffff;
+		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
+		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
+		background-image: linear-gradient(top,#ffffff,#d9d9d9);
+		background-repeat: repeat-x;
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
+		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
+		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+		*background-color: #d9d9d9;
+		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	}
+
+	.cspio .btn-primary:hover,
+	.cspio .btn-primary:active,
+	.cspio .btn-primary.active,
+	.cspio .btn-primary.disabled,
+	.cspio .btn-primary[disabled],
+	.cspio .btn-primary:focus:hover,
+	.cspio .btn-primary:focus:active,
+	.cspio .btn-primary:focus.active,
+	.cspio .btn-primary:focus.disabled,
+	.cspio .btn-primary:focus[disabled],
+	#mc-embedded-subscribe:hover,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active,
+	#mc-embedded-subscribe.disabled,
+	#mc-embedded-subscribe[disabled] {
+		background-color: #d9d9d9;
+		*background-color: #cccccc;
+	}
+
+	.cspio .btn-primary:active,
+	.cspio .btn-primary.active,
+	.cspio .btn-primary:focus:active,
+	.cspio .btn-primary:focus.active,
+	.gform_button:active,
+	.gform_button.active,
+	#mc-embedded-subscribe:active,
+	#mc-embedded-subscribe.active {
+		background-color: #bfbfbf;
+	}
+
+	.form-control,
+	.progress {
+		background-color: rgba(255, 255, 255, 0.85);
+	}
+
+	#cspio-progressbar span,
+	.countdown_section {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+	}
+
+	.cspio .btn-primary:hover,
+	.cspio .btn-primary:active {
+		color: black;
+		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
+		border-color: #e6e6e6;
+	}
+
+	.cspio input[type='text']:focus {
+		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
+	}
+    
+    #cspio-content {
+		display: none;
+		max-width: 600px;
+		background-color: #000000;
+		-webkit-border-radius: 2px;
+		border-radius: 2px;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		background-color:transparent;
+	}
+    
+	.cspio .progress-bar,
+	.countdown_section,
+	.cspio .btn-primary,
+	.cspio .btn-primary:focus,
+	.gform_button {
+		background-image: none;
+		text-shadow: none;
+	}
+
+	.cspio input,
+	.cspio input:focus {
+		-webkit-box-shadow: none !important;
+		box-shadow: none !important;
+	}
+							
+	#cspio-page{
+	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+	}
+
+	.cspio body{
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
+		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
+		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
+	}
+
+	#cspio-subscribe-btn{
+	    background:transparent;
+	    border: 1px solid #fff !important;
+	    color: #fff;
+	}
+
+	#cspio-subscribe-btn:hover{
+	    background: rgba(255,255,255,0.2);
+	    color: #fff;
+	}
+
+	#cspio-credit img{
+		margin-left:auto;
+		margin-right:auto;
+		width:125px;
+		    margin-top: -4px;
+	}
+
+	#cspio-credit {
+		font-size:11px;
+	}
+
+	</style>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Modernizr -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+	
+	<!-- Google Analytics Code Goes Here-->
 </head>
-
 <body>
-  <header>
-    <div>
-      <img src="./img/avatar.jpg" />
-    </div>
-    <h1>Ocat Verdigris</h1>
-    <section>
-      <p>Hello! I am Ocat Verdigris. I work as interface and front-end developer. I have passion for pixel perfect, minimal and easy to use interfaces. I'm  focused, dedicated, hard-working and willing to learn in a changing and challenging environment.</p>
-      <a href="https://www.facebook.com/flynerdpl/" target="_blank">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://www.twitter.com/flynerdpl/" target="_blank">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://github.com/ritaly" target="_blank">
-        <i class="fab fa-github-alt"></i>
-      </a>
-      <a href="https://www.instagram.com/flynerdpl/" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/ritalyczywek/" target="_blank">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </section>
-  </header>
-  <main>
-    <section>
-      <h3>Courses & Workshops</h3>
-      <article class='course'>
-        <div class='title'>
-          <h4>Udacity: Intro to HTML and CSS</h4>
-        </div>
-        <div class="descrition">
-          <p>Build styled, well-structured websites. Learn how to use HTML5 standard to create websites. Understand CSS syntax, selectors, and units. Learn about code editors and a browser's Developer Tools.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>Udemy: The Web Developer Bootcamp</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn how to create full-stack web applications from scratch using HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>EdX: Web Programming with JavaScript</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn how to create web apps and prototypes with JavaScript, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>
-        </div>
-      </article>
-      <article class='course'>
-        <div class='title'>
-          <h4>Django Girls: 2-Day Workshops</h4>
-        </div>
-        <div class="descrition">
-          <p>Learn back-end development with simple blog application using Django  framework.</p>
-        </div>
-      </article>
-    </section>
-    <section>
-      <h3>Skills</h3>
-      <div class='skills'>
-        <div class='column'>
-          <h4>Good knowledge</h4>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>JavaScript ES5/6</li>
-            <li>SQL</li>
-          </ul>
-        </div>
-        <div class='column'>
-          <h4>Basic knowledge</h4>
-          <ul>
-            <li>jQuery</li>
-            <li>NodeJS</li>
-            <li>MongoDB</li>
-            <li>Django</li>
-          </ul>
-        </div>
-        <div>
-          <h4>Languages</h4>
-          <p>🇵🇱 Polish - Native speaker</p>
-          <p>🇬🇧 English - Proficient C1/C2</p>
-          <p>🇫🇷 French - Advanced - C1</p>
-          <p>🇪🇸 Spanish - Intermediate - B1/B2</p>
-          <p>🇩🇪 German - Elementary / Communicative - A2</p>
-        </div>
-      </div>
-    </section>
+	<div id="cspio-page">
+		<div id="cspio-content">
+			
+	<img id="cspio-logo" src="">
+			    				
+			<h1 id="cspio-headline">Coming Soon Page</h1>			    				
+			
+			<div id="cspio-description">Yogi Mardialah</div>			    				
+			
+			
+			<span id="cspio-privacy-policy-txt">No Pain No Again</span>
+			    						    			    								    			    			    				
+			<div id="cspio-socialprofiles">
+				<a href="" target="_blank"><i class="fa fa-facebook-official fa-2x"></i></a>			
+				<a href="" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>			
+				<a href="mailto:" target="_blank"><i class="fa fa-envelope fa-2x"></i></a>			
+			</div>
 
-    <section>
-      <h3>Education</h3>
-      <article>
-        <div class='school'>
-          <span>2015-2018</span> <strong>Octocats tech academy</strong>
-        </div>
-        <div class="descrition">
-          Bechelor Degree of Octorobotics
-        </div>
-      </article>
-      <article>
-        <div class='school'>
-          <span>2012-2015</span> <strong>Underwater kittens high school</strong>
-        </div>
-        <div>
-          Main subject: Cathemathics
-        </div>
-      </article>
-    </section>
-    <section>
-      <h3>Experience</h3>
-      <article>
-        <div class='job-title'>
-          <span>03.2018 - 06.2018</span> <strong>Tentacles Company</strong><br> <strong>Position:</strong> Web developer Intern
-        </div>
-        <div>
-          <p><strong>Tech stack:</strong> HTML5 / CSS / JavaScript / jQuery</p>
-          <ul class="job-description">
-            <li>Develop web application for Octopoda departments</li>
-            <li>Implement UI (front-end site) based on received graphic design and requirements</li>
-            <li>Co-operate with the back-end team </li>
-          </ul>
-        </div>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <p>Created by: <a href="https://github.com/yogiganteng/">@yogi</a>  / <a href="https://github.com/yogiganteng/">LinkedIn</a> / 2018 </p>
-  </footer>
-</body>
+		
+									    									    			    			    							    			     			    		
+		</div><!-- end of #cspio-content -->
+	</div>
+
+
+	<script>
+		// Animate Delay
+		setTimeout(function(){ jQuery("#cspio-content").show().addClass('animated fadeIn'); }, 250);
+
+		// Reseize	
+		function resize(){
+				$('head').append("<style id='form-style' type='text/css'></style>");
+				$('#form-style').html('.cspio .input-group-btn, .cspio .input-group{display:block;width:100%;}.cspio #cspio-subscribe-btn{margin-left:0;width:100%;display:block;}.cspio .input-group .form-control:first-child, .cspio .input-group-addon:first-child, .cspio .input-group-btn:first-child>.btn, .cspio .input-group-btn:first-child>.dropdown-toggle, .cspio .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {border-bottom-right-radius: 4px;border-top-right-radius: 4px;}.cspio .input-group .form-control:last-child, .cspio .input-group-addon:last-child, .cspio .input-group-btn:last-child>.btn, .cspio .input-group-btn:last-child>.dropdown-toggle, .cspio .input-group-btn:first-child>.btn:not(:first-child) {border-bottom-left-radius: 4px;border-top-left-radius: 4px;}');
+		}
+		
+		$('#cspio-content').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+			function(){
+				var width = $('#cspio-field-wrapper').width();
+				if(width < 480 && width != 0){
+					resize();
+				}
+			}
+		);
+	</script>
+
+	</body>
 </html>
