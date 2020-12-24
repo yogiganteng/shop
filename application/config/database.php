@@ -75,7 +75,8 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'port' => '25060',
+	'hostname' => 'db-mysql-sgp1-65332-do-user-8092724-0.b.db.ondigitalocean.com',
 	'username' => 'doadmin',
 	'password' => 'msxr1mr989javgsx',
 	'database' => 'ekomoditi',
