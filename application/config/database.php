@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-//	'port' => '25060',
+	'port' => '25060',
 	'hostname' => 'db-mysql-sgp1-65332-do-user-8092724-0.b.db.ondigitalocean.com',
 	'username' => 'doadmin',
 	'password' => 'gnibx1wd060f68gq',
