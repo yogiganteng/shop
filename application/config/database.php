@@ -80,7 +80,7 @@ $db['default'] = array(
 	'username' => 'doadmin',
 	'password' => 'msxr1mr989javgsx',
 	'database' => 'ekomoditi',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
