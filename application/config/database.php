@@ -75,10 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	//'port' => '25060',
 	'hostname' => 'localhost',
-	'username' => 'yogi',
-	'password' => 'Dbdigitalocean2021!',
+	'username' => 'root',
+	'password' => '',
 	'database' => 'ekomoditi',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
