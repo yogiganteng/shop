@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'port' => '25060',
-	'hostname' => 'db-mysql-sgp1-65332-do-user-8092724-0.b.db.ondigitalocean.com',
-	'username' => 'doadmin',
-	'password' => 'gnibx1wd060f68gq',
+	//'port' => '25060',
+	'hostname' => 'localhost',
+	'username' => 'yogi',
+	'password' => 'Dbdigitalocean2021',
 	'database' => 'ekomoditi',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
