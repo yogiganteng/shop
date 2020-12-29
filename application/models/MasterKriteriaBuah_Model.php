@@ -1,12 +1,7 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-
 class Masterkriteriabuah_model extends CI_Model
 {
-    public function __construct()
-    {
-        parent::__construct();
-    }
     private $_table = "master_kriteria_buah";
 
     public $id;
