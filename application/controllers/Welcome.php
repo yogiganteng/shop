@@ -20,6 +20,6 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		redirect(site_url('admin//transaksi/listdata'));
+		redirect(site_url('admin/transaksi/listdata'));
 	}
 }
