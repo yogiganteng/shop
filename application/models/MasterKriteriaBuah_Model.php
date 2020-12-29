@@ -1,4 +1,4 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');
+<?php 
 
 class Masterkriteriabuah_model extends CI_Model
 {
