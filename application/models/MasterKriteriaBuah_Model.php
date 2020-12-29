@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class Masterkriteriabuah_model extends CI_Model
 {
