@@ -6,6 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
        $this->load->library('form_validation');
        $this->load->model("transaksi_model");
        $this->load->model("transaksidetail_model");
+       
        $this->load->model("Masterkriteriabuah_model"); 
        $this->load->model("user_model");
        if($this->user_model->isNotLogin()) redirect(site_url('admin/login'));
