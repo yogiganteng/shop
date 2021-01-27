@@ -18,7 +18,7 @@
             <div class="col-12 col-md-6 text-center mt-5 mx-auto p-4">
                 <h1 class="h2">Login Admin</h1>
                 <div class="text-center">
-                <img src="<?php echo base_url('assets/images/logo.png') ?>" class="rounded" alt="...">
+                <!-- <img src="<?php echo base_url('assets/images/logo.png') ?>" class="rounded" alt="..."> -->
                 </div>
             </div>
         </div>
